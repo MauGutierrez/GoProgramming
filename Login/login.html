@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Jammer</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/sign_in.css">
+</head>
+<body>
+    <main>
+        <div class="login-page">
+            <div class="form">
+                <header>The Jammer</header>
+                <img src="./img/jammer_logo.png" />
+                <h4>Connecting and sharing with people wince 2017</h4>
+                <form class="login-form" name="myForm-login" method="post" action="/login">
+                    <input id="username" type="text" name="user" placeholder="username" />
+                    <input id="password" type="password" name="password" placeholder="password" />
+                    <input class="rememberMe" type="checkbox" name="remember" /> <label>Remember Me</label>
+                    <button class="button-login" type="submit"> Login </button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/sign_in.js"></script>
+</body>
+</html>
